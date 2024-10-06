@@ -1,0 +1,3 @@
+RewriteEngine ON
+RewriteRule ^login$ index.php [L]
+RewriteRule ^register/dni$ index.php?m=Alumno&f=showRegister&dni=dni [L]
